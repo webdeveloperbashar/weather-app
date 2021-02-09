@@ -60,7 +60,7 @@ function createElement(weather) {
 
     let tempSpan = document.createElement('span');
     tempSpan.id = 'temp';
-    tempSpan.innerText = `Temp: ${weather.temp}, `
+    tempSpan.innerText = `Temp: ${weather.temp}C, `
     let humiditySpan = document.createElement('span');
     humiditySpan.id = 'humidity';
     humiditySpan.innerText = `Humidity: ${weather.humidity}%, `
